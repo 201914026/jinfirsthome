@@ -4,118 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>홈페이지만들기</title>
-    <style>
-        div{
-            font-size: 40px;
-            
-        }
-        li{
-            font-size: 20px;
-            display:  inline-block;
-            
-        }
-        li:hover{
-            cursor: pointer;
-        }
-        
-        @keyframes tcolor{
-            0%{color: red}
-            50%{color: yellow}
-            100%{color: blue}
-        }
-        #tform{
-            animation-name:  tcolor;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-            border-radius: 15px 15px 15px 0; border: 5px solid #FFAD5B; padding: 0.5em 0.6em; color: #FF8000;
-        }
-        body{
-            background-color: blanchedalmond
-        }
-        tr:hover{
-            cursor: pointer;
-        }
-      
-      </style>
-    
-     
-
+    <title>Document</title>
 </head>
 
-
-
-
+</head>
 <body>
-    <div>
-    <img src="image/버거킹.jpg" alt=""width=10%> <span id="tform">범진킹</span>
+    <h1>이미지를 클릭하면 홈페이지가 열립니다<</h1>
+    <hr />
+    &#171; 이미지를 클릭하면 홈페이지가 열립니다. &#187;
+    <table border="1">
+    </tr>
+    <td><a href="https://www.naver.com/"><img src="image/naver.jpg"
+    alt="네이버로고" width="300" height="200"></a><br><a href="imge/naver.jpg" download>다운로드</a><td></td>
+    <td><ing src="imge/gyroscope" alt="구글로고"></td>
+    <td><ing src="imge/daum.jpg" alt="다음로고"></td>
+</tr>   
+</table>
+<iframe src="imge/daum.jpg" frameborder="0" width="600"height="400"></iframe>
+"<iframe width="560" height="315" src="https://www.youtube.com/embed/fL6rM4hTFJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <ul>
-        <li>메뉴소개<input type="text" list="con"></li>
-        <datalist id="con"> 
-            <option value="버거"  />
-            <option value="스페셜&할인팩"  />
-            <option value="사이드"  />
-            <option value="음료&디저트"  />
-        </datalist>
-        <li>매장소개<input type="text" list="co"></li>
-        <datalist id="co"> 
-            <option value="위치"  />
-            <option value="매장찾기"/>
-        </datalist>
-        <li>이벤트<input type="text" list="on"></li>
-        <datalist id="on"> 
-            <option value="반값할인" />
-            <option value="1+1행사"/>
-            <option value="경품 EVENT" />
-        </datalist>
-        </ul>
-        </div>
-            <h3>"BumJin King Live"</h3>
-        <tr><td><img src="image/사진1.jpg"/tr></td>
-        <tr><td><img src="image/사진2.jpg"</tr></td>
-        <tr><td><img src="image/사진3.jpg"</tr></td>
-        <tr><td><img src="image/사진4.jpg"</tr></td>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/KUmrD90Q8I8?autoplay=1&mute=1 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bv-qiW0rI0A?autoplay=1&mute=1 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <tr><td><img src="image/사진6.jpg"</tr></td>
-        <hr>
-        </table>
+<video>
+    <source src="media/sea.mp4">
+</video>
 
-
-        <form action="login.php" method="get">
-        <table>
-        <h3>간단하게 홈페이지에서도 주문 가능!!</h3>
-        고 객 명:<input type"text" name="고객명" /> <br>
-        전화번호:<input type"text" name="전화번호" /> <br>
-        주소:<input type"text" name="id" /> <br>
-
-        </table>
-        </tbody>
-        <fieldset style="width: 250px">
-        <legend>대표 메뉴</legend>
-        <input type="radio" name="사이즈" value="1"> 게살버거 <br>
-        <input type="radio" name="사이즈" value="2"> 치즈버거 <br>
-        <input type="radio" name="사이즈" value="3"> 데리버거 <br>
-        </fieldset>
-        <fieldset style="width: 250px">
-        <legend>버거 선택</legend>
-        <input type="radio" name="사이즈" value="1"> 불고기버거 <br>
-        <input type="radio" name="사이즈" value="2"> 한우불고기<br>
-        <input type="radio" name="사이즈" value="3"> 치킨버거 <br>
-        </fieldset>
-        <fieldset style="width: 250px">
-        <legend>사이드&디저트 선택</legend>
-        <input type="checkbox" name="토핑" value="1"> 치즈스틱<br>
-        <input type="checkbox" name="토핑" value="2"> 오징어링<br>
-        <input type="checkbox" name="토핑" value="3"> 감자튀김<br>
-        <input type="checkbox" name="토핑" value="4"> 양념감자<br>
-        </fieldset>
-
-        희망배송시간 <input type="time" placeholder="-- --:-- "> <br>
-        배송시 요청사항 <input type"text" placeholder="야무지게 부탁드립니다."><br>
-        <input type="submit" value="주문하기"> <input type="submit" value="다시 선택하기">
-        </body>
-        </html>
-        
-
+</body>
+</html>
